@@ -29,9 +29,9 @@ export const AddTransaction = () => {
             <h3>Add New Transaction</h3>
             <form onSubmit={onSubmit}>
                 <div className="form-control">
-                    <label htmlFor="description">
+                    { <label htmlFor="description">
                         Description
-                    </label>
+                    </label> }
                     <input  type="text" 
                             id="description"
                             value={description}
